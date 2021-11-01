@@ -1,0 +1,30 @@
+
+.navbar{
+    padding: 30px;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+    justify-content: space-between;
+  
+}
+
+.containerItems{
+    display: flex;
+}
+
+.containerMenu ul{
+    display: flex;
+    width: 100%;
+}
+
+.containerMenu ul li{
+   margin-left: 40px;
+}
+
+.categoriaHp{
+    color: white !important;
+}
+
+
+
+

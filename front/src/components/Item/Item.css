@@ -1,0 +1,83 @@
+.container__itemCount__counter input{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.container__itemCount__counter button{
+    font-size: 20px;
+    background-color:#343a40;
+    color: white;
+    
+}
+.container__itemCount{
+    border: 1px solid black;
+    border-radius:10px;
+    width: 300px;
+    margin-top: 2rem;
+}
+
+.addButtonCart{
+    width: 40%;
+    margin-top:10px;
+    padding: 8px;
+   background-color: #c9d700 !important;
+   border: 1px solid #c9d700 !important;
+   cursor: pointer;
+}
+
+.addButtonCart:hover{
+   
+   color:#c9d700 !important;
+   background-color: white !important;
+   border: 1px solid #c9d700 !important;
+}
+a.detalleButtonCart{
+ 
+        width: 40%;
+        margin-top:10px;
+        padding: 8px;
+       background-color: #343a40 !important;
+       border: 1px solid #c9d700 !important;
+       color: white !important;
+       cursor: pointer;
+}
+
+a.detalleButtonCart:hover{
+    color:#343a40 !important;
+    background-color: white !important;
+    border: 1px solid #343a40 !important;
+}
+.containerButtonsCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.inputCount{
+    border: none;
+    width: 13% !important;
+}
+.colorred{
+    color: red;
+}
+.colorblack{
+    color: black;
+}
+
+.buttonMore:hover,.buttonLess:hover{
+    color:#343a40 !important;
+    background-color: white !important;
+    border: 1px solid #343a40 !important;
+    cursor: pointer;
+}
+
+.buttonMore{
+   width: 35px;
+}
+
+.buttonLess{
+    width: 35px;
+ }
+ 
+
+

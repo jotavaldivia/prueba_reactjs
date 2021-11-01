@@ -1,0 +1,1 @@
+Para correr et aplicacion la unicas dependencias extras que utilicé fue react router, y el comando sigue siendo el mismo "npm run dev"

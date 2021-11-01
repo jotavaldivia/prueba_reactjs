@@ -1,0 +1,147 @@
+.container__itemCount{
+    height: 500px;
+    transition: transform .3s; 
+}
+
+.container__itemCount:hover{
+    transform: scale(1.1); 
+    -webkit-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.75);
+    
+}
+
+.container__itemCount h3{
+    height: 40px ;
+    width: 90%;
+    
+}
+
+.container__detail{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.container__detail__img img{
+max-width:450px
+}
+
+.container__detail__description{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 2rem;
+    
+}
+.addButton{
+
+width: 40%;
+text-align:center;
+}
+
+.container__detail__description p{
+    max-width: 400px;
+}
+
+.inputCount{
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+@media (max-width: 600px) {
+    .addButton{
+
+        width: 60%;
+        }
+
+        .container__detail__img img{
+            max-width:300px
+            }
+            
+        
+  }
+
+
+.button__inicio{
+    background-color: #c9d700;
+    width: fit-content;
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+
+/* .producTitle{
+    margin: 0;
+} */
+.button__inicio:hover{
+   
+    color:#c9d700 !important;
+    background-color: white !important;
+    border: 1px solid #c9d700 !important;
+ }
+ 
+
+.addButtonCart{
+    width: 40%;
+    margin-top:10px;
+    padding: 13px !important;
+    font-size: 17px;
+   background-color: #c9d700 !important;
+   border: 1px solid #c9d700 !important;
+   cursor: pointer;
+   color: white;
+}
+
+.addButtonCart:hover{
+   
+   color:#c9d700 !important;
+   background-color: white !important;
+   border: 1px solid #c9d700 !important;
+}
+
+
+.textcategory{
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+
+.star-wrapper {
+    text-align: center !important;
+   
+  }
+  .star-wrapper a {
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 4px;
+  }
+  .star-wrapper a:hover {
+    color: gold ;
+    transform: scale(1.3);
+  }
+  .s1:hover ~ a {
+    color: gold;
+  }
+  .s2:hover ~ a {
+    color: gold;
+  }
+  .s3:hover ~ a {
+    color: gold;
+  }
+  .s4:hover ~ a {
+    color: gold;
+  }
+  .s5:hover ~ a {
+    color: gold;
+  }
+  .wraper {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+  } 
+   
